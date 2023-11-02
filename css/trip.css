@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+a {
+  text-decoration: none;
+  color: black;
+}
+.menu_bar {
+  background-color: skyblue;
+  font-size: 1.3em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+}
+.menu_bar a {
+  padding: 12px;
+  display: inline-block;
+  font-size: 18px;
+}
+.menu_bar a:hover {
+  background-color: gray;
+}
+.menu_bar a.active {
+  background-color: teal;
+}
+/* 바로 지도 부분 */
+.container {
+  /* background-color: blue; */
+  margin-top: 50px;
+  padding: 30px 200px;
+  overflow: hidden;
+}
+.container > #left * {
+  float: left;
+  max-width: 500px;
+}
+.container > #right {
+  float: right;
+  max-width: 750px;
+}
+.container > #right p {
+  font-size: 1.2em;
+}
+/* 바람개비 마을 */
+.section {
+  /* background-color: blue; */
+  padding: 100px 200px;
+  border: 1px solid black;
+  background-color: rgb(208, 241, 241);
+}
+.section > .article1 {
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+.section > .article1 > #left {
+  float: left;
+  max-width: 750px;
+}
+.section > .article1 > #left > #size {
+  font-size: 1.2em;
+}
+
+.section > .article1 > #right {
+  float: right;
+}
+.section > .article2 {
+  overflow: hidden;
+}
+.section > .article2 > #left {
+  float: left;
+}
+.section > .article2 > #right {
+  float: right;
+}
+/* 제주도 */
+.section2 > h2 {
+  padding-left: 200px;
+}
+.section2 > .article1 {
+  padding: 100px 200px;
+  /* background-color: blue; */
+  overflow: hidden;
+}
+.section2 > .article1 > #left {
+  float: left;
+}
+.section2 > .article1 > #right {
+  font-size: 1.2em;
+  float: right;
+}
+.section2 > .article2 {
+  padding: 100px 200px;
+  border: 1px solid black;
+  background-color: rgb(208, 241, 241);
+  overflow: hidden;
+}
+.section2 > .article2 > #left {
+  float: left;
+}
+.section2 > .article2 > #right {
+  float: right;
+}
+.section2 > .article2 > #right > #size {
+  font-size: 1.2em;
+}
+.section2 > .article2 > #A {
+  text-align: center;
+}
